@@ -1,0 +1,8 @@
+$Strawberries|10.00|100.00 Blueberries|10.00|100.00 Blackberries|10.00|100.00
+Welcome to Farm Simulator! Please type in your name to begin:
+//user input --> farmer name
+You woke up this morning to find a letter in the mail. Your grandfather has passed away, leaving his farm to you. In honor of his memory, you decide  to pack your bags and begin a new life as a farmer. What would you like to name your farm?
+//user input --> farm name
+Now that you have moved in, you need to decide what type of crops you would like to grow. Please select one of the following crops:
+$Strawberries|10.00|100.00 Blueberries|10.00|100.00 Blackberries|10.00|100.00
+//user input --> int 1 or int 2 or int 3

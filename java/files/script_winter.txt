@@ -1,0 +1,9 @@
+Congrats on making it to winter! Your budget for this season is: (insert current balance).
+You decide to raise some animals since you cannot grow crops in the winter. Please input the number of your choice selection:
+1. Cows for $600
+2. Goats for $500
+3. Chickens for $300
+*Cows|600.00|800.00 Goats|500.00|700.00 Chickens|300.00|600.00
+Great choice!
+Things on your farm have been going well, but halfway through the season, a crisis occurred!
+~

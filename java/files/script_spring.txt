@@ -1,0 +1,9 @@
+Congrats on making it to fall! Your budget for this season is: (insert current balance).
+Which crop would you like to select for your fall crop? Please input the number of your choice selection:
+1. Kale for $600
+2. Cauliflower for $500
+3. Carrots for $300
+*Kale|600.00|800.00 Cauliflower|500.00|700.00 Carrots|300.00|600.00
+Great choice!
+Things on your farm have been going well, but halfway through the season, a crisis occurred!
+~

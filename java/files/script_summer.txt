@@ -1,0 +1,9 @@
+Welcome to your new farm! For your first season, you have a budget of $1,000.
+Which crop would you like to select for your summer crop? Please input the number of your choice selection:
+1. Strawberries for $600
+2. Blueberries for $500
+3. Blackberries for $300
+*Strawberries|600.00|800.00 Blueberries|500.00|700.00 Blackberries|300.00|600.00
+Great choice!
+Things on your farm have been going well, but halfway through the season, a crisis occurred!
+~

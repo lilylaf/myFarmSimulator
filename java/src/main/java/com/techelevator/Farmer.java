@@ -42,9 +42,7 @@ public class Farmer {
     }
 
     private List<Product> listOfProducts = new ArrayList<>();
-    private void addProductList(Product p){
-        listOfProducts.add(p);
-    } //this acts like a setter
+
 
     //constructor
     public Farmer(){
@@ -54,12 +52,30 @@ public class Farmer {
         this.profit = 1000.00;
     }
 
-    //method --> because addProductList is private, it can only be called in this class. This method calls addProductList and also adjusts our money variables
-    public void addProducts(Product p){
-        this.addProductList(p);
-        this.debt += p.getInvestmentCost();
-        this.profit += p.getSellPrice();
+    //if balance hits zero or less, the game is over.
+    public boolean gameOver(){
+        if (this.getBalance() <= 0.00){
+            return true;
+        }
+        return false;
     }
+
+    //add profits
+    public void addProfits(double p){
+        this.profit += p;
+    }
+
+    //add debts
+    public void addDebts(double d){
+        this.debt += d;
+    }
+
+    //when we add a product, we are adjusting our debts and profits
+    public void addProductList(Product p){
+        listOfProducts.add(p);
+        addProfits(p.getSellPrice());
+        addDebts(p.getInvestmentCost());
+    } //this acts like a setter
 
     @Override
     public String toString(){

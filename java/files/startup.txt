@@ -1,0 +1,4 @@
+Welcome to myFarmSimulator!
+*Before we begin, please tell us your name:
+~Nice to meet you! Now, please name your farm:
+That's a great name! Now lets get started.

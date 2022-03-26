@@ -25,7 +25,6 @@ public class GameInstance {
         seasonLoop();
     }
 
-
     //start up the game, prompt user for farmer name and farm name.
     public void startup(){
         File s = new File("files/startup.txt");
@@ -66,7 +65,7 @@ public class GameInstance {
         }
     }
 
-    public List<Product> convertToProductList(String lineFromFile) {
+    private List<Product> convertToProductList(String lineFromFile) {
 		List<Product> allProducts = new ArrayList<>();
 		String[] stringOfProducts = lineFromFile.split(" ");
 		for(String p : stringOfProducts){
@@ -128,5 +127,4 @@ public class GameInstance {
     }
 
     //user stats after each season ends
-
 }

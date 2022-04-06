@@ -8,13 +8,11 @@ import java.util.List;
 
 public class FarmerTest {
 
-    //tests for my farmer class
-
-    //method: addProducts
-        //test happy path
-        //test null?
     @Test
-    public void test_template_for_addProductList_method(){
-
+    //farmer balance initialized as 1,000
+    public void test_add_products_happy_path(){
+        Farmer test = new Farmer();
+        Boolean expected = test.gameOver();
+        Assert.assertEquals(expected, false);
     }
 }

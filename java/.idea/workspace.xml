@@ -26,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.FarmerTest.test_add_products_happy_path">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.techelevator.Main" />
       <module name="Module-1-Coding-Assessment" />
@@ -55,6 +55,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FarmerTest.test_add_products_happy_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module-1-Coding-Assessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techelevator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techelevator" />
+      <option name="MAIN_CLASS_NAME" value="com.techelevator.FarmerTest" />
+      <option name="METHOD_NAME" value="test_add_products_happy_path" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FarmerTest.test_template_for_addProductList_method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Module-1-Coding-Assessment" />
       <extension name="coverage">
@@ -73,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FarmerTest.test_add_products_happy_path" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FarmerTest" />
         <item itemvalue="JUnit.FarmerTest.test_template_for_addProductList_method" />
